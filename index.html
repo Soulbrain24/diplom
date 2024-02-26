@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Главная страница</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+</head>
+<body>
+  
+  <nav class="navbar flex-column navbar-expand-md bg-dark fixed-top border-bottom" data-bs-theme="dark">
+    <div class="container justify-content-around">
+      <a class="navbar-brand" href="#">
+        <img src="img/logo.png" alt="Logo" width="30" height="30" class="d-inline-block align-text-top">
+        ИнженерСтройСервис
+      </a>
+      <a href="#" class="navbar-brand">
+        <h3>Напишите нам</h3>
+      </a>
+    </div>
+    
+    <div class="container">
+      <a class="navbar-brand d-md-none" href="#">
+        <svg class="bi" width="24" height="24"><use xlink:href="#aperture"></use></svg>
+        ИнженерСтройСервис
+      </a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvas" aria-controls="offcanvas" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvas" aria-labelledby="offcanvasLabel">
+        <div class="offcanvas-header">
+          <h5 class="offcanvas-title" id="offcanvasLabel">ИнженерСтройСервис</h5>
+          <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+        </div>
+        <div class="offcanvas-body">
+          <ul class="navbar-nav flex-grow-1 justify-content-between">
+            <!-- Ваш код для пункта меню "Каталог" -->
+            <li class="nav-item"><a class="nav-link" href="#">Каталог</a></li>
+            
+            <!-- Ваш код для пункта меню "Услуги" -->
+            <li class="nav-item"><a class="nav-link" href="#">Услуги</a></li>
+            
+            <!-- Ваш код для пункта меню "О нас" -->
+            <li class="nav-item"><a class="nav-link" href="#">О нас</a></li>
+            
+            <!-- Ваш код для пункта меню "Контакты" -->
+            <li class="nav-item"><a class="nav-link" href="#">Контакты</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    
+  </nav>
+  <main>
+
+    <div id="myCarousel" class="carousel slide mb-5" data-bs-ride="carousel">
+      <div class="carousel-indicators">
+        <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="0" class="active" aria-label="Slide 1" aria-current="true"></button>
+        <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="1" aria-label="Slide 2" class=""></button>
+        <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="2" aria-label="Slide 3" class=""></button>
+      </div>
+      <div class="carousel-inner">
+        <div class="carousel-item active">          
+          <img class="bd-placeholder-img" width="100%" height="700px" src="img/1с.jpg" alt="">
+          <div class="container">
+            <div class="carousel-caption text-start">
+              <h1>"Инженерстройсервис" – ваш партнер в сфере бурового оборудования</h1>
+              <p class="opacity-75">Мы предлагаем уникальные решения и полный спектр услуг для успешной реализации ваших проектов.</p>
+              <p><a class="btn btn-lg btn-primary" href="#">Узнать больше</a></p>
+            </div>
+          </div>
+        </div>
+        <div class="carousel-item">          
+          <img class="bd-placeholder-img" width="100%" height="700px" src="img/2с.jpg" alt="">
+          <div class="container">
+            <div class="carousel-caption">
+              <h1>Оптовые продажи бурового оборудования</h1>
+              <p>Разнообразные возможности для наших клиентов. Партнерство с нами – шаг к успешной реализации ваших проектов.</p>
+              <p><a class="btn btn-lg btn-primary" href="#">Подробнее</a></p>
+            </div>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <img class="bd-placeholder-img" width="100%" height="700px" src="img/3с.jpg" alt="">
+          <div class="container">
+            <div class="carousel-caption text-end">
+              <h1>Профессиональные услуги от "Инженерстройсервис"</h1>
+              <p>Монтаж, пуско-наладка и юридическое сопровождение – мы заботимся о каждом этапе вашего проекта.</p>
+              <p><a class="btn btn-lg btn-primary" href="#">Присоединиться</a></p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#myCarousel" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#myCarousel" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+    
+  
+  
+    <!-- Marketing messaging and featurettes
+    ================================================== -->
+    <!-- Wrap the rest of the page in another container to center all the content. -->
+  
+    <div class="container marketing">
+  
+      <div class="container marketing">
+        <div class="row">
+          <div class="col-lg-12">
+            <h2 class="fw-normal">О компании "Инженерстройсервис"</h2>
+            <p>Компания "Инженерстройсервис" - предприятие малого бизнеса, занимающееся оптовой продажей оборудования в качестве посредника между потенциальными клиентами, нуждающимися в буровом оборудовании, и производителями этого оборудования. С начала своей деятельности, компания активно участвует в тендерах, электронных аукционах и закупках, направляя точечные коммерческие предложения своим клиентам...</p>
+            <p>Кроме того, "Инженерстройсервис" предоставляет комплексные услуги по реализации бурового оборудования, включая пуско-наладку, монтаж, и юридическое сопровождение, чтобы обеспечить клиентов не только продукцией, но и полным спектром сопутствующих сервисов.</p>
+            <p>"Инженерстройсервис", тщательно анализирует потребности потенциальных клиентов в области бурового оборудования и связанных услуг. Компания разрабатывает точечные коммерческие предложения, учитывая индивидуальные запросы каждого клиента...</p>
+            
+          </div>
+        </div>
+  
+  
+      <!-- START THE FEATURETTES -->
+  
+      <hr class="featurette-divider">
+  
+<div class="row featurette">
+  <div class="col-md-7">
+    <h2 class="featurette-heading fw-normal lh-1">Бурение по новым стандартам. <span class="text-body-secondary">Опыт "Инженерстройсервис".</span></h2>
+    <p class="lead">Наши специалисты разработали инновационные методы бурения, соответствующие самым высоким стандартам безопасности и эффективности. Мы предлагаем клиентам не просто оборудование, а комплексные решения для реализации буровых проектов.</p>
+  </div>
+  <div class="col-md-5">
+    <!-- Ваше изображение для первого блока -->
+    <img src="img/1.jpg" alt="Boring Featurette 1" class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto">
+  </div>
+</div>
+
+<hr class="featurette-divider">
+
+<div class="row featurette">
+  <div class="col-md-7 order-md-2">
+    <h2 class="featurette-heading fw-normal lh-1">Техническая поддержка 24/7. <span class="text-body-secondary">Надежность от "Инженерстройсервис".</span></h2>
+    <p class="lead">Мы гордимся предоставлением круглосуточной технической поддержки наших клиентов. Наши инженеры готовы ответить на любые вопросы, предоставить необходимую информацию и решить технические проблемы в кратчайшие сроки.</p>
+  </div>
+  <div class="col-md-5 order-md-1">
+    <!-- Ваше изображение для второго блока -->
+    <img src="img/2.avif" alt="Boring Featurette 2" class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto">
+  </div>
+</div>
+
+<hr class="featurette-divider">
+
+<div class="row featurette">
+  <div class="col-md-7">
+    <h2 class="featurette-heading fw-normal lh-1">Новые горизонты в бурении. <span class="text-body-secondary">Инженерное будущее с "Инженерстройсервис".</span></h2>
+    <p class="lead">Мы постоянно исследуем и внедряем инновации в области бурения, открывая новые возможности для наших клиентов. Наша компания стремится быть лидером в инженерной отрасли, предоставляя передовые технологии и высокий уровень профессионализма.</p>
+  </div>
+  <div class="col-md-5">
+    <!-- Ваше изображение для третьего блока -->
+    <img src="img/3.jpg" alt="Boring Featurette 3" class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto">
+  </div>
+</div>
+
+<hr class="featurette-divider">
+
+<!-- /END THE FEATURETTES -->
+
+    </div><!-- /.container -->
+  
+  
+    <!-- FOOTER -->
+    <footer class="container">
+      <p class="float-end"><a href="#">Back to top</a></p>
+      <p>© 2017–2024 Company, Inc. · <a href="#">Privacy</a> · <a href="#">Terms</a></p>
+    </footer>
+  </main>
+  
+  <footer class="container py-5">
+    <div class="row">
+      <div class="col-12 col-md">
+        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="d-block mb-2" role="img" viewBox="0 0 24 24"><title>Product</title><circle cx="12" cy="12" r="10"></circle><path d="M14.31 8l5.74 9.94M9.69 8h11.48M7.38 12l5.74-9.94M9.69 16L3.95 6.06M14.31 16H2.83m13.79-4l-5.74 9.94"></path></svg>
+        <small class="d-block mb-3 text-body-secondary">© 2017–2024</small>
+      </div>
+      <div class="col-6 col-md">
+        <h5>Features</h5>
+        <ul class="list-unstyled text-small">
+          <li><a class="link-secondary text-decoration-none" href="#">Cool stuff</a></li>
+          <li><a class="link-secondary text-decoration-none" href="#">Random feature</a></li>
+          <li><a class="link-secondary text-decoration-none" href="#">Team feature</a></li>
+          <li><a class="link-secondary text-decoration-none" href="#">Stuff for developers</a></li>
+          <li><a class="link-secondary text-decoration-none" href="#">Another one</a></li>
+          <li><a class="link-secondary text-decoration-none" href="#">Last time</a></li>
+        </ul>
+      </div>
+      <div class="col-6 col-md">
+        <h5>Resources</h5>
+        <ul class="list-unstyled text-small">
+          <li><a class="link-secondary text-decoration-none" href="#">Resource name</a></li>
+          <li><a class="link-secondary text-decoration-none" href="#">Resource</a></li>
+          <li><a class="link-secondary text-decoration-none" href="#">Another resource</a></li>
+          <li><a class="link-secondary text-decoration-none" href="#">Final resource</a></li>
+        </ul>
+      </div>
+      <div class="col-6 col-md">
+        <h5>Resources</h5>
+        <ul class="list-unstyled text-small">
+          <li><a class="link-secondary text-decoration-none" href="#">Business</a></li>
+          <li><a class="link-secondary text-decoration-none" href="#">Education</a></li>
+          <li><a class="link-secondary text-decoration-none" href="#">Government</a></li>
+          <li><a class="link-secondary text-decoration-none" href="#">Gaming</a></li>
+        </ul>
+      </div>
+      <div class="col-6 col-md">
+        <h5>About</h5>
+        <ul class="list-unstyled text-small">
+          <li><a class="link-secondary text-decoration-none" href="#">Team</a></li>
+          <li><a class="link-secondary text-decoration-none" href="#">Locations</a></li>
+          <li><a class="link-secondary text-decoration-none" href="#">Privacy</a></li>
+          <li><a class="link-secondary text-decoration-none" href="#">Terms</a></li>
+        </ul>
+      </div>
+    </div>
+  </footer>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+</body>
+</html>
